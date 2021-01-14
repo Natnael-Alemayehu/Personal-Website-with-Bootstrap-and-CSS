@@ -1,6 +1,12 @@
 .navbar{
-    width: 60rem;
+    width: 60rem !important;
     background-color: #2d2654 !important;
+}
+.containsEverything{
+        background-color: #fff;
+}
+body{
+    background-color: #eee;
 }
 .header a{
     font-size: 4rem;
@@ -21,11 +27,14 @@
 .navbar-toggler{
     background-color: white;
 }
+.fonts a{
+    margin-right: 1rem;
+}
+.fonts{
+    margin-bottom: 2rem;
+}
 /* This is where the CSS for all the pages end */
 
-.container{
-    width: 60em;
-}
 .makeInline{
     display: inline;
 }
