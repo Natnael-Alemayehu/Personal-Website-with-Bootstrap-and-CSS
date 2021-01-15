@@ -83,7 +83,7 @@ body{
     }
     .blogPictures{
         height: 210px;
-        width: auto !important;
+        width: 390px;
         margin-bottom: 1rem;
     }
   }
