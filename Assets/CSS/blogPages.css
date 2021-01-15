@@ -83,11 +83,26 @@ body{
     }
     .blogPictures{
         height: 210px;
-        width: auto !important;
+        width: 380px;
+        margin-bottom: 1rem;
+    }
+    iframe{
+        width: 380px;
+        height: 210px;
+    }
+    .pictureBlog{
+        width: 380px;
+        height: 210px;
         margin-bottom: 1rem;
     }
   }
+  
   .AbtMe a{
       text-decoration: none;
       color: #212529;
   }
+.pictureBlog{
+    width: 615px;
+    height: 330px;
+    margin-bottom: 1rem;
+}
