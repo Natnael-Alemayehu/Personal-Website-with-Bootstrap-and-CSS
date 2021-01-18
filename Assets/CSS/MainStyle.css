@@ -91,3 +91,9 @@ body{
       text-decoration: none;
       color: #212529;
   }
+
+.pictureBlog{
+    width: 615px;
+    height: 330px;
+    margin-bottom: 1rem;
+}
