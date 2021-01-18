@@ -63,8 +63,8 @@ body{
 
 /* Css for the blog */
 .blogPictures{
-    height: 300px;
-    width: 615px;
+    height: inherit;
+    width: inherit;
 }
 
 @media screen and (max-width: 1000px) {
@@ -86,13 +86,14 @@ body{
         width: 380px;
         margin-bottom: 1rem;
     }
-    iframe{
-        width: 380px;
-        height: 210px;
+    .pictureBlogiFrame{
+        width: inherit;
+        height: 250px;
+        margin-bottom: 1rem;
     }
     .pictureBlog{
-        width: 380px;
-        height: 210px;
+        width: inherit;
+        height: inherit;
         margin-bottom: 1rem;
     }
   }

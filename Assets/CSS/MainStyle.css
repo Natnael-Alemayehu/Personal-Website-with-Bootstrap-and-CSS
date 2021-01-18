@@ -62,9 +62,22 @@ body{
 }
 
 /* Css for the blog */
+
 .blogPictures{
-    height: 300px;
-    width: 615px;
+    height: inherit;
+    width: inherit;
+}
+.pictureBlog{
+    width: inherit;
+    height: inherit;
+    margin-bottom: 1rem;
+    align-content: center;
+}
+
+.pictureBlogiFrame{
+    width: inherit;
+    height: 350px;
+    margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -86,14 +99,18 @@ body{
         width: 390px;
         margin-bottom: 1rem;
     }
+    .pictureBlogiFrame{
+        width: inherit;
+        height: 250px;
+        margin-bottom: 1rem;
+    }
+    .pictureBlog{
+        width: inherit;
+        height: inherit;
+        margin-bottom: 1rem;
+    }
   }
   .AbtMe a{
       text-decoration: none;
       color: #212529;
   }
-
-.pictureBlog{
-    width: 615px;
-    height: 330px;
-    margin-bottom: 1rem;
-}
